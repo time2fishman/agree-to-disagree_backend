@@ -1,22 +1,302 @@
 [
     {
-      "name": "",
-      "url": ""
+      "name": "Pizza",
+      "image": "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "cuisine": "Italian",
+      "description": "a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese and often various other ingredients"
     },
     {
-      "name": "",
-      "url": ""
+      "name": "Burgers",
+      "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "cuisine": "American",
+      "description": "a sandwich consisting of a patty, typically beef, placed inside a sliced bun or bread roll and often served with fillings"
     },
     {
-      "name": "",
-      "url": ""
+      "name": "Steak",
+      "image": "https://images.pexels.com/photos/3997609/pexels-photo-3997609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "cuisine": "American",
+      "description": "a meat generally sliced across the muscle fibers, potentially including bone, and normally grilled but can also be pan-fried"
     },
     {
-      "name": "",
-      "url": ""
+      "name": "Chicken Wings",
+      "image": "https://images.pexels.com/photos/6941026/pexels-photo-6941026.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "cuisine": "American",
+      "description": "breaded or unbreaded chicken wings that are generally deep-fried and then coated or dipped in a sauce"
     },
     {
-      "name": "",
-      "url": ""
+      "name": "Chicken Tenders",
+      "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "cuisine": "American",
+      "description": "chicken meat prepared by coating with a breading mixture and deep frying"
+    },
+    {
+        "name": "Baked Potato",
+        "image": "https://images.pexels.com/photos/9203737/pexels-photo-9203737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "cuisine": "American",
+        "description": "known in some parts of the United Kingdom as a jacket potato, is a whole potato baked in the oven and served with fillings, toppings, or condiments such as butter, cheese, and sour cream"
+    },
+    {
+        "name": "Baby Back Ribs",
+        "image": "https://images.pexels.com/photos/9650087/pexels-photo-9650087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "cuisine": "American",
+        "description": "pork ribs taken from the top of the rib cage prepared by smoking, grilling, or baking - usually with a sauce, often barbecue"
+    },
+    {
+        "name": "Kebabs",
+        "image": "https://images.pexels.com/photos/12326183/pexels-photo-12326183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "cuisine": "Greek",
+        "description": "a type of cooked meat dish that originates from cuisines of the Middle East consisting of cut up or ground meat, often skewered and cooked over a fire"
+    },
+    {
+        "name": "Sushi",
+        "image": "https://images.pexels.com/photos/684965/pexels-photo-684965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "cuisine": "Japanese",
+        "description": "a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanied by a variety of ingredients such as seafood, often raw, and vegetables"
+    },
+    {
+        "name": "Pho",
+        "image": "https://images.pexels.com/photos/6646079/pexels-photo-6646079.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Vietnamese",
+        "description": "a Vietnamese soup dish consisting of broth, rice noodles, herbs and meat"
+    },
+    {
+        "name": "Ramen",
+        "image": "https://images.pexels.com/photos/6646349/pexels-photo-6646349.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Japanese",
+        "description": "a Japanese noodle dish consisting of Chinese-style alkaline wheat noodles servied in a meat-based broth often flavored with soy sauce or miso with toppings such as sliced pork, nori (dried seaweed), menma and scallions"
+    },
+    {
+        "name": "Pad Thai",
+        "image": "https://images.pexels.com/photos/12561891/pexels-photo-12561891.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Thai",
+        "description": "a stir-fried rice noodle dish commonly served as a street food in Thailand"
+    },
+    {
+        "name": "Tikka Masala",
+        "image": "https://media.istockphoto.com/photos/chicken-curry-creamy-chicken-butter-picture-id1227594550?b=1&k=20&m=1227594550&s=612x612&w=0&h=-ICG5j5ZnEs3nha1siYH44CFpGOoLwPTqGgIP80SPpc=",
+        "cuisine": "Indian",
+        "description": "a dish either with a meat or meat substitute in spiced gravy that is usually creamy and orange-colored"
+    },
+    {
+        "name": "Biryani",
+        "image": "https://images.pexels.com/photos/9609853/pexels-photo-9609853.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Indian",
+        "description": "a mixed rice dish made with Indian spices, rice and usually some type of meat or with eggs and potatoes"
+    },
+    {
+        "name": "Quesadillas",
+        "image": "https://images.pexels.com/photos/4955210/pexels-photo-4955210.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Mexican",
+        "description": "a Mexican dish consisting of a tortilla that is filled primarily with cheese and sometimes meats, spices and other fillings cooked on a griddle or stove"
+    },
+    {
+        "name": "Lo Mein",
+        "image": "https://media.istockphoto.com/photos/homemade-beef-lo-mein-noodles-picture-id1172590963?b=1&k=20&m=1172590963&s=612x612&w=0&h=cjjt4yGFcwky-bGjD9TZDfSdcpYDv-MgSoA7V2SMW58=",
+        "cuisine": "Chinese",
+        "description": "a Chinese dish with egg noodles often containing vegetables and some type of meat or seafood"
+    },
+    {
+        "name": "Chicken & Waffles",
+        "image": "https://media.istockphoto.com/photos/homemade-southern-chicken-and-waffles-picture-id844672172?b=1&k=20&m=844672172&s=612x612&w=0&h=UEewSxqwlrjrGROXgOxZ9r9xdR2aXq5RLHZHVJ_eC5w=",
+        "cuisine": "American",
+        "description": "American dish combining chicken with waffles, deriving from culinary traditions including soul food and Pennsylvania Dutch cuisine"
+    },
+    {
+        "name": "Omelette",
+        "image": "https://images.pexels.com/photos/6294362/pexels-photo-6294362.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Breakfast",
+        "description": "dish made from beaten eggs, fried with butter or oil in a frying pan and often filled with vegetables, meats and cheeses"
+    },
+    {
+        "name": "Bacon & Eggs",
+        "image": "https://media.istockphoto.com/photos/fried-bacon-and-eggs-in-iron-skillet-picture-id507519094?b=1&k=20&m=507519094&s=612x612&w=0&h=nmRgZiiT6bK-cJyLuzI6Uotnu5sUQdzqP5XRxS-Ct8I=",
+        "cuisine": "Breakfast",
+        "description": "cooked breafkast meal consisting of eggs and bacon slices - served as a 'full breakfast' in the United Kingdom with black pudding and baked beans"
+    },
+    {
+        "name": "Avocado Toast",
+        "image": "https://media.istockphoto.com/photos/healhy-breakfast-toast-with-avocado-egg-picture-id1141120666?b=1&k=20&m=1141120666&s=612x612&w=0&h=UYfyWqiA3g2XPtYHpqsB_wDUP0KbQO7wm9TVCGSu5_U=",
+        "cuisine": "Breakfast",
+        "description": "a type of open sandwich consisting of toast with mashed avocado and usually salt, black pepper and sometimes citrus juice"
+    },
+    {
+        "name": "Chicken Salad",
+        "image": "https://media.istockphoto.com/photos/homemade-healthy-chicken-salad-picture-id671436910?b=1&k=20&m=671436910&s=612x612&w=0&h=HWG4U_-XdWOxJjTYGk0AE8kW9F37j0if1Oq-tV2gQwU=",
+        "cuisine": "American",
+        "description": "mixed salad consisting of chopped chicken meat, vegetables, and a binder like mayonaisse or salad dressing"
+    },
+    {
+        "name": "Spaghetti",
+        "image": "https://media.istockphoto.com/photos/spaghetti-in-a-dish-on-a-white-background-picture-id1144823591?b=1&k=20&m=1144823591&s=612x612&w=0&h=0vLNK1a0t4Kh5AvA59yCT_O6ZpJHMsg6jjxGOhVZzHY=",
+        "cuisine": "Italian",
+        "description": "a staple food of traditional Italian cuisine made of long, thin, solid, cylindrical pasta"
+    },
+    {
+        "name": "Lasagna",
+        "image": "https://media.istockphoto.com/photos/meat-lasagna-picture-id543663322?b=1&k=20&m=543663322&s=612x612&w=0&h=41FSzcjIrLkAHDs3JOUHDAjK1bb8EWo0Br_XOEiITWE=",
+        "cuisine": "Italian",
+        "description": "stacked layers of lasagne alternating with fillings such as ground meats and tomato sauce, vegetables, and cheeses"
+    },
+    {
+        "name": "Vegetable Lasagna",
+        "image": "https://media.istockphoto.com/photos/spinach-and-ricotta-lasagna-picture-id508652097?b=1&k=20&m=508652097&s=612x612&w=0&h=cmY8fKfu_d15hZgdSNJdxhOHR2bjg-6na63-h0G3nBw=",
+        "cuisine": "Italian",
+        "description": "stacked layers of lasagne with only layers of vegetables and cheeses"
+    },
+    {
+        "name": "Stuffed Mushrooms",
+        "image": "https://media.istockphoto.com/photos/stuffed-mushrooms-picture-id617387012?b=1&k=20&m=617387012&s=612x612&w=0&h=mHMJHA1L1m1jgVsbTIDsnB_w_-Gmr1VSiHL7u7sBPqY=",
+        "cuisine": "American",
+        "description": "a dish prepared using edible mushrooms with a variety of feelings, usually served as an hors d'oeuvre"
+    },
+    {
+        "name": "Risotto",
+        "image": "https://media.istockphoto.com/photos/three-cheese-risotto-picture-id143920878?b=1&k=20&m=143920878&s=612x612&w=0&h=XsKW0P-2YJMshwDPSmmOnVm-3vFz1WTnTPDl-Me4Jvw=",
+        "cuisine": "Italian",
+        "description": "a northern Italian rice dish cooked with broth until it reaches a creamy consistency"
+    },
+    {
+        "name": "Ceviche",
+        "image": "https://media.istockphoto.com/photos/ceviche-in-a-bowl-with-lime-on-a-wooden-table-picture-id166211228?b=1&k=20&m=166211228&s=612x612&w=0&h=LFEZ9aq6ggFkgazZrkwY8z8V-jq7OG04eiOrIfSmVLc=",
+        "cuisine": "Seafood",
+        "description": "a South American seafood dish originally from what is the modern day country of Peru, typically made from fresh raw fish cured in fresh citrus juices, most commonly lemon or lime - served cold"
+    },
+    {
+        "name": "Lobster",
+        "image": "https://media.istockphoto.com/photos/delicious-fresh-cooked-and-grilled-lobster-picture-id686475482?b=1&k=20&m=686475482&s=612x612&w=0&h=twkvmdHkKKAo9unH7QTi9HchJBL-JuYmP6Md_BrdhVE=",
+        "cuisine": "Seafood",
+        "description": "evidence of human lobster consumption dates back 100,00 years and is often eaten with melted butter and lemon juice"
+    },
+    {
+        "name": "Crab",
+        "image": "https://images.pexels.com/photos/4869432/pexels-photo-4869432.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Seafood",
+        "description": "crab meat is prized around the world for its soft, delicate and sweet taste while also being low in fat"
+    },
+    {
+        "name": "Baked Salmon",
+        "image": "https://images.pexels.com/photos/5014597/pexels-photo-5014597.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Seafood",
+        "description": "a popular food fish, classified as an oil fish, that is rich in protein with a generally orange to red flesh"
+    },
+    {
+        "name": "Baked Cod",
+        "image": "https://media.istockphoto.com/photos/fried-cod-fillet-with-fresh-vegetables-picture-id1230001174?b=1&k=20&m=1230001174&s=612x612&w=0&h=bO-M0QySiW0Z3fkBzbLXLrfazefH6K4PW83TNu3fbIs=",
+        "cuisine": "Seafood",
+        "description": "a popular food fish with a mild flavor and dense, flaky white flesh"
+    },
+    {
+        "name": "Sashimi",
+        "image": "https://media.istockphoto.com/photos/raw-mackerel-and-raw-salmon-picture-id910042608?b=1&k=20&m=910042608&s=612x612&w=0&h=anuBbliwF5Jkv4Dt2SukKLRut3e_q8aAAlztOBou3_M=",
+        "cuisine": "Japanese",
+        "description": "a Japanese delicacy consisting of fresh raw fish or meat sliced into thin pieces and often eaten with soy sauce"
+    },
+    {
+        "name": "Sweet & Sour Chicken",
+        "image": "https://media.istockphoto.com/photos/sweet-and-sour-chicken-on-rice-picture-id499424611?b=1&k=20&m=499424611&s=612x612&w=0&h=MeoSOp7Hwkdr_QOgN5cFRawTjXzKFTaXMMRJItU6EPI=",
+        "cuisine": "Chinese",
+        "description": "a method of cooking chicken using both sweet and sour sauces stretch back as far as the Tang Dynasty festivals written in the year 708"
+    },
+    {
+        "name": "Orange Chicken",
+        "image": "https://media.istockphoto.com/photos/asian-oranage-chicken-with-green-onions-picture-id483120255?b=1&k=20&m=483120255&s=612x612&w=0&h=Cl1e068uD7_3j0oOPdcYphg8WB8GcEIBerSKl7LjQ84=",
+        "cuisine": "Chinese",
+        "description": "an American Chinese dish consisting of chopped, battered and fried chicken pieces coated in a sweet orange-flavored chili sauce"
+    },
+    {
+        "name": "General Tso's Chicken",
+        "image": "https://media.istockphoto.com/photos/general-tsos-chicken-with-rice-for-dinner-horizontal-closeup-picture-id579254020?b=1&k=20&m=579254020&s=612x612&w=0&h=HHeGuOkqRCe8porBlzcLYmYAhb-MFaOIGu8VqwNvE-g=",
+        "cuisine": "Chinese",
+        "description": "a sweet and spicy deep-fried chicken dish served in North American Chinese restaurants"
+    },
+    {
+        "name": "Mangú",
+        "image": "https://media.istockphoto.com/photos/mangu-dominican-republic-picture-id488153773?b=1&k=20&m=488153773&s=612x612&w=0&h=MGv5fPe0nb-uDltU-PzaFWBM5ex-o0oKMz7yVwwI5Wo=",
+        "cuisine": "Caribbean",
+        "description": "the national breakfast of the Dominican Republic - consists of plantains, red onions, queso frito, fried eggs and fried Dominican salami"
+    },
+    {
+        "name": "Pastelón",
+        "image": "https://media.istockphoto.com/photos/cutting-out-a-piece-of-lasagna-puerto-rican-pastelon-close-up-in-picture-id1179600813?b=1&k=20&m=1179600813&s=612x612&w=0&h=k6dXA6VSsYbpLb8Vl7YdWipV-tdRyQblZt_mdgPZqAo=",
+        "cuisine": "Caribbean",
+        "description": "a Dominican and Puerto Rican casserole consisting of plantains, sofrito and minced beef"
+    },
+    {
+        "name": "Tostones",
+        "image": "https://media.istockphoto.com/photos/fried-tostones-green-plantains-bananas-with-guacamole-sauce-picture-id1270261834?b=1&k=20&m=1270261834&s=612x612&w=0&h=lz0dYWhKl2HyJlf4IHUsbZIfUECYACyzawaDJXJ5s70=",
+        "cuisine": "Caribbean",
+        "description": "double-fried plantain slices commonly found in Caribbean and Latin American cuisine"
+    },
+    {
+        "name": "Mofongo",
+        "image": "https://media.istockphoto.com/photos/spicy-mofongo-with-plantains-garlic-and-chicharron-served-with-meat-picture-id1155725021?b=1&k=20&m=1155725021&s=612x612&w=0&h=1SapYltq-UgdA5Uu0fJXnvO-DIFrRUQDKy6NoXLjdlQ=",
+        "cuisine": "Caribbean",
+        "description": "a traditionally Puerto Rican dish with plantains as its main ingredient cut into pieces and typically fried then mashed with salt, garlic, broth and olive oil in a wooden pilon"
+    },
+    {
+        "name": "Empanadas",
+        "image": "https://images.pexels.com/photos/12263158/pexels-photo-12263158.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Mexican",
+        "description": "type of baked or fried turnover consisting of pastry and filling(name comes from the Spanish empanar which means to coat with bread)"
+    },
+    {
+        "name": "Pancakes",
+        "image": "https://images.pexels.com/photos/2732666/pexels-photo-2732666.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Breakfast",
+        "description": "a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter"
+    },
+    {
+        "name": "Breakfast Sandwich",
+        "image": "https://images.pexels.com/photos/139746/pexels-photo-139746.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Breakfast",
+        "description": "sandwich filled with foods associated with breakfast"
+    },
+    {
+        "name": "Chicken Sandwich",
+        "image": "https://media.istockphoto.com/photos/southern-country-fried-chicken-sandwich-picture-id521207406?b=1&k=20&m=521207406&s=612x612&w=0&h=XMkyQGjLxmsJkwC1jArvpSiPfAws-x7NqOp3BiN5l_c=",
+        "cuisine": "American",
+        "description": "sandwich typically consisting of boneless, skinless chicken breast or thigh served between slices of bread, on a bun, or on a roll"
+    },
+    {
+        "name": "Samosas",
+        "image": "https://media.istockphoto.com/photos/samsa-or-samosas-with-meat-and-vegetables-picture-id1168978894?b=1&k=20&m=1168978894&s=612x612&w=0&h=_gFy3cKcZsxLcYNxlafbPC6xFM_pV0Gu6Vbx0sDhMM0=",
+        "cuisine": "Indian",
+        "description": "fried or baked pastry with a savory filling, including ingredients such as spiced potatoes, onions, and peas"
+    },
+    {
+        "name": "Curry",
+        "image": "https://images.pexels.com/photos/4611424/pexels-photo-4611424.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "Indian",
+        "description": "a dish with a saunce seasoned with spices, mainly associated with South Asian cuisine"
+    },
+    {
+        "name": "Hot Dogs",
+        "image": "https://images.pexels.com/photos/4113455/pexels-photo-4113455.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "American",
+        "description": "grilled or steamed sausage served in the slit of a partially sliced bun"
+    },
+    {
+        "name": "BBQ Chicken",
+        "image": "https://images.pexels.com/photos/8156645/pexels-photo-8156645.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "cuisine": "American",
+        "description": "entire chickens or chicken parts that are barbecued, grilled, or smoked"
+    },
+    {
+        "name": "Pulled Pork",
+        "image": "https://media.istockphoto.com/photos/braised-beef-short-rib-sandwich-with-coleslaw-on-a-brioche-bun-picture-id1215529349?b=1&k=20&m=1215529349&s=612x612&w=0&h=YvS46RZgrRCCLw6-GxNpk54boc3hRWLZqHzy_b6SEl8=",
+        "cuisine": "American",
+        "description": "shredded barbecue pork shoulder"
+    },
+    {
+        "name": "Mac 'n Cheese",
+        "image": "https://media.istockphoto.com/photos/baked-mac-and-cheese-picture-id1194753924?b=1&k=20&m=1194753924&s=612x612&w=0&h=getPh3tpOl_vMSljsGxDDcJYbQz1Ap2NE5CSetK86Sk=",
+        "cuisine": "American",
+        "description": "dish of cooked macaroni pasta and a cheese sauce, most commonly cheddar"
+    },
+    {
+        "name": "Pot Roast",
+        "image": "https://media.istockphoto.com/photos/homemade-slow-cooker-pot-roast-picture-id516816688?b=1&k=20&m=516816688&s=612x612&w=0&h=O0PxFZwOA3OwVa8tPj79XLNPmDKRwjTejOjJYY632MM=",
+        "cuisine": "American",
+        "description": "a beef dish made by slow-cooking a usually tough cut of beef in moist heat"
     }
   ]
