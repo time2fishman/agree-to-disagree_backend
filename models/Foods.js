@@ -1,5 +1,5 @@
 // Require
-const mongoose = require('../connection')
+const mongoose = require('../db/connection')
 
 // Schema(s)
 const FoodsSchema = new mongoose.Schema({

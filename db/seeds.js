@@ -1,5 +1,3 @@
-const mongoose = require('./connection')
-
 const Foods = require('../models/Foods')
 const foodseeds = require('./seeds.json')
 
