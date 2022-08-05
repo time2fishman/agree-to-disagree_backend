@@ -8,7 +8,7 @@ const Foods = require('../models/Foods')
 
 // ***** ROUTES *****
 
-// CRUD
+// Following CRUD basic guidelines
 
 // Post new food item (C - create)
 router.post('/', async (req, res, next) => {

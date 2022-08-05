@@ -3,7 +3,7 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
-// const cors = require('cors')
+const cors = require('cors')
 require('./db/connection.js')
 app.set('port', process.env.PORT || 3000)
 
@@ -11,7 +11,7 @@ app.set('port', process.env.PORT || 3000)
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-// app.use(cors())
+app.use(cors()) // This needs to only allow connection from front-end URL
 
 // ROUTES
 

@@ -1,8 +1,8 @@
 // Require
-const mongoose = require('mongoose')
+const mongoose = require('../connection')
 
 // Schema(s)
-const FoodsSchema = new moongoose.Schema({
+const FoodsSchema = new mongoose.Schema({
     name: String,
     image: String,
     cuisine: String,
