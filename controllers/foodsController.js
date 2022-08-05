@@ -66,5 +66,19 @@ router.delete('/:id', async (req, res, next) =>  {
     }
 })
 
+// Edit food by id 
+router.patch('/:id', async (req, res, next) =>  {
+    try {
+        const editFoodItem = await Foods.findByIdAndUpdate(
+            req.params.id,
+            req.body,
+            { new: true }
+            )
+        res.json(editFoodItem)
+    } catch (err) {
+        next(err)
+    }
+})
+
 // Export routes
 module.exports = router
