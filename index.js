@@ -5,7 +5,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 require('./db/connection.js')
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 8000)
 
 // MIDDLEWARE
 
