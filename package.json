@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Celestial-Dwarf/agree-to-disagree_backend.git"
+    "url": "git+https://github.com/time2fishman/agree-to-disagree_backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Celestial-Dwarf/agree-to-disagree_backend/issues"
+    "url": "https://github.com/time2fishman/agree-to-disagree_backendissues"
   },
-  "homepage": "https://github.com/Celestial-Dwarf/agree-to-disagree_backend#readme",
+  "homepage": "https://github.com/time2fishman/agree-to-disagree_backend#readme",
   "dependencies": {
     "chai": "^4.3.6",
     "cors": "^2.8.5",
